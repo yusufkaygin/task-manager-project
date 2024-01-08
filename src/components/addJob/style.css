@@ -1,0 +1,52 @@
+.add-job .title {
+  font-size: 12px;
+}
+
+.add-job .content {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 12px 0px;
+}
+
+@media (min-width: 1200px) {
+  .add-job .content > div:first-child {
+    padding-right: 5px;
+  }
+
+  .add-job .content > div:last-child {
+    padding-left: 5px;
+  }
+}
+
+.css-13cymwt-control {
+  border-radius: 2px !important;
+}
+
+.add-job .content .select-btn {
+  display: flex;
+  align-items: center;
+}
+
+.add-job .content .select-btn > div:first-child {
+  padding-right: 5px;
+}
+
+.add-job .content .select-btn > div:last-child {
+  padding-left: 5px;
+}
+
+.add-job .content .select-btn button > span {
+  padding-left: 7px;
+}
+
+.add-job .content .select-btn button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-job {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}

@@ -1,0 +1,35 @@
+.filter-list-pg .filter {
+  display: flex;
+}
+
+.filter-list-pg .filter > div:first-child {
+  padding-right: 5px;
+}
+
+.filter-list-pg .filter > div:last-child {
+  padding-left: 5px;
+}
+
+.filter-list-pg .title {
+  font-size: 12px;
+}
+
+.action-btns {
+  display: flex;
+}
+
+.filter-list-pg {
+  margin-top: 32px !important;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.action-btns .btn {
+  border-radius: 50% !important;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
